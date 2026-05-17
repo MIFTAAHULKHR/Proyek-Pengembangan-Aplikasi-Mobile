@@ -9,6 +9,7 @@ import com.example.rosea.data.local.datastore.create
 import com.example.rosea.data.remote.api.GeminiService
 import com.example.rosea.data.repository.AIRepositoryImpl
 import com.example.rosea.domain.repository.AIRepository
+import com.example.rosea.data.remote.api.ProductApiService
 
 // === IMPORT REPOSITORY BARU ===
 import com.example.rosea.domain.repository.ProductRepository
@@ -35,6 +36,7 @@ import org.koin.dsl.module
 val networkModule = module {
     single { HttpClientFactory.create(enableLogging = true) }
     singleOf(::GeminiService)
+    singleOf(::ProductApiService)
 }
 
 // ==================== DATABASE MODULE ====================
