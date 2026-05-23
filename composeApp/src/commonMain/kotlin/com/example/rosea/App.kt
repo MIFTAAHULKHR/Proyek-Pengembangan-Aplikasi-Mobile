@@ -8,9 +8,15 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Composable
 @Preview
 fun App() {
+    // 1. Ambil instance SyncManager secara global menggunakan Koin
+    val syncManager = org.koin.compose.koinInject<com.example.rosea.domain.usecase.OrderSyncManager>()
+
+    // 2. Nyalakan mesin pemantau di latar belakang (hanya dipanggil sekali)
+    androidx.compose.runtime.LaunchedEffect(Unit) {
+        syncManager.startObserving()
+    }
+
     RoseaTheme {
-        // Kita tidak lagi memanggil AppNavHost langsung di sini.
-        // Semuanya sekarang dibungkus dan diatur oleh MainScreen.
         MainScreen()
     }
 }

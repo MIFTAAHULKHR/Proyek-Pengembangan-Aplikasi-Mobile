@@ -16,7 +16,7 @@ class ProductApiService(private val client: HttpClient) {
     suspend fun getBeautyProducts(): List<Product> {
         return try {
             // 1. Ktor melakukan HTTP GET Request ke URL internet
-            val response: ProductResponseDto = client.get("https://dummyjson.com/products/category/skincare").body()
+            val response: ProductResponseDto = client.get("https://dummyjson.com/products/category/beauty").body()
 
             // 2. Data JSON yang didapat (DTO) langsung diubah (mapping) menjadi
             // Model Domain "Product" yang dipahami oleh database aplikasi kita

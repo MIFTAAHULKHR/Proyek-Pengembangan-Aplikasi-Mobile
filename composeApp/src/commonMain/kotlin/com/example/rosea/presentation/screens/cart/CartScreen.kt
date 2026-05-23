@@ -58,9 +58,10 @@ fun CartScreen(
                 if (items.isNotEmpty()) {
                     val totalPrice = items.sumOf { it.price * it.quantity }
                     CartBottomBar(totalPrice = totalPrice, onCheckoutClick = {
-                        viewModel.checkout()
+                        // 🌟 PERUBAHAN ADA DI SINI: Kirim items dan totalPrice ke ViewModel
+                        viewModel.checkout(items, totalPrice)
                         coroutineScope.launch {
-                            snackbarHostState.showSnackbar("Berhasil Checkout! Barangmu segera diproses ✨")
+                            snackbarHostState.showSnackbar("Berhasil masuk antrean! Barangmu segera diproses ✨")
                         }
                     })
                 }
