@@ -107,12 +107,12 @@ kotlin {
 
 android {
     namespace = "com.example.rosea"
-    compileSdk = 35
+    compileSdk = 34 // Menggunakan SDK 34 agar lebih stabil dengan AGP 8.5.2
     
     defaultConfig {
         applicationId = "com.example.rosea"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0.0"
         
