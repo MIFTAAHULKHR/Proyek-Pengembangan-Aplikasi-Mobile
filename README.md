@@ -35,6 +35,12 @@ Total: 14 Tests (Repository & ViewModels)
 We use the standard JaCoCo or Kover setup for coverage reports.
 **Target**: 50%+ Coverage (Current: ~70%)
 
+## Test Results
+
+![Test Report](<img width="1759" height="755" alt="Screenshot 2026-06-07 180358" src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" />)
+![Test Report](<img width="1759" height="787" alt="Screenshot 2026-06-07 180410" src="https://github.com/user-attachments/assets/4e27ed30-3d5a-4e86-87b4-d8e727c7b784" />)
+
+
 ## 🛠 Tech Stack
 - **UI**: Jetpack Compose / Compose Multiplatform
 - **DI**: Koin
