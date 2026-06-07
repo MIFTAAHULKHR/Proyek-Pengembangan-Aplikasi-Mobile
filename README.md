@@ -41,6 +41,15 @@ We use the standard JaCoCo or Kover setup for coverage reports.
 | :---: | :---: |
 | <img width="1759" height="755" alt="Screenshot 2026-06-07 180358" src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" /> | <img width="1759" height="787" alt="Screenshot 2026-06-07 180410" src="https://github.com/user-attachments/assets/4e27ed30-3d5a-4e86-87b4-d8e727c7b784" /> |
 
+### Coverage Report
+```bash
+# Generate laporan coverage
+./gradlew koverHtmlReport
+
+# Hasil tersimpan di:
+# composeApp/build/reports/kover/html/index.html
+```
+
 
 ## 🛠 Tech Stack
 - **UI**: Jetpack Compose / Compose Multiplatform
