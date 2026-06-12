@@ -63,7 +63,7 @@ Aplikasi ini menerapkan **Clean Architecture** dengan pola **MVVM (Model-View-Vi
 
 ## 📥 Download
 Tautan untuk mengunduh versi terbaru aplikasi:
-- [**Download APK (Releases)**](https://github.com/informatika-itera/Proyek-Pengembangan-Aplikasi-Mobile/releases)
+- [**Download APK (Releases)**](https://drive.google.com/drive/u/0/folders/1hs4WXJSi4xF8fQ64f5mo_P4LIonOy4RP)
 
 ---
 
