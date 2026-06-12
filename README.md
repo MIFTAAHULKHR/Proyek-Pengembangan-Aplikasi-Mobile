@@ -71,6 +71,11 @@ Tautan untuk mengunduh versi terbaru aplikasi:
 ▶️ [Presentasi Akhir ROSÉA](https://youtu.be/vTU-n-fGePc)
 
 ---
+## 📥 PPT
+Tautan untuk mengunduh PPT PROYEK:
+- [**Download PPT**](https://canva.link/dzm1stlt26pfqjo)
+
+---
 
 ## 🖼 Screenshots
 | Home Screen | Product Detail | AI Advisor | Shopping Bag | Profile | Dark Mode |
