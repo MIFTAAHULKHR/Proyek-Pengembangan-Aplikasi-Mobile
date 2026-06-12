@@ -45,8 +45,23 @@ fun MainScreen(
         BottomNavItem("Profil", Icons.Default.Person, Routes.PROFILE)
     )
 
-    // Sembunyikan bottom bar jika berada di Onboarding
-    val showBottomBar = currentRoute != Routes.ONBOARDING
+    // Daftar rute yang menyembunyikan bottom bar
+    val hideBottomBarRoutes = listOf(
+        Routes.ONBOARDING,
+        Routes.AI_ASSISTANT,
+        Routes.EDIT_PROFILE,
+        Routes.SETTINGS,
+        Routes.SECURITY,
+        Routes.ABOUT,
+        Routes.TERMS,
+        Routes.HELP_SUPPORT,
+        Routes.NOTIFICATIONS,
+        Routes.VOUCHERS,
+        Routes.HISTORY,
+        Routes.ADDRESS_MANAGEMENT
+    )
+    
+    val showBottomBar = currentRoute !in hideBottomBarRoutes
 
     Scaffold(
         bottomBar = {

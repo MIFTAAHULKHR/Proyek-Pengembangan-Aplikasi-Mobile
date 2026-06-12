@@ -1,60 +1,83 @@
-# ROSÉA - Beauty E-Commerce App
+# 🌹 ROSÉA - Beauty E-Commerce App
 
-A modern beauty e-commerce application built with Compose Multiplatform.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="100%" alt="ROSÉA Header" />
+  <p><i>A modern beauty e-commerce application built with Compose Multiplatform.</i></p>
+</div>
 
-## 🚀 Features
-- **Product Catalog**: Reactive product listing with category filters.
-- **Smart Search**: Real-time product search with debounce.
-- **Shopping Bag**: Manage products before checkout.
-- **AI Beauty Advisor**: Integrated Gemini AI for beauty consultations.
-- **Offline-First**: Local storage using SQLDelight and DataStore.
+---
 
-## 🧪 Testing Instructions (Sprint 4)
+## 👥 Informasi Tim
+Proyek ini dikembangkan oleh:
 
-### Unit Tests
-Total: 14 Tests (Repository & ViewModels)
-- **ProductRepositoryTest**: Verifies data fetching, searching, and filtering.
-- **HomeViewModelTest**: Verifies UI state transformations, search logic, and sorting.
-- **DetailViewModelTest**: Verifies product loading and "Add to Bag" functionality.
+| Nama | NIM | Peran | GitHub |
+| :--- | :--- | :--- | :--- |
+| **Andini Rahma Kemala** | 123140067 | Presentation Layer, UI/UX, Testing | [@Andinn](https://github.com/Andinn) |
+| **Miftahul Khair** | 123140064 | Domain & Data Layer, Database, API | [@MIFTAAHULKHR](https://github.com/MIFTAAHULKHR) |
 
-**How to run:**
-```bash
-./gradlew :composeApp:testDebugUnitTest
-```
+---
 
-### UI Tests
-- **HomeScreenTest**: Verifies product list visibility and search bar functionality.
-- **NavigationTest**: Verifies navigation from Home to Detail and Cart.
+## 📝 Deskripsi Aplikasi
+**ROSÉA** adalah platform e-commerce produk kecantikan yang dirancang menggunakan **Compose Multiplatform**. Aplikasi ini bertujuan untuk memberikan pengalaman berbelanja yang personal bagi pengguna dengan menghadirkan fitur **AI Beauty Advisor** yang didukung oleh Google Gemini, membantu pengguna menemukan produk yang paling sesuai dengan kebutuhan kulit mereka.
 
-**How to run:**
-```bash
-./gradlew :composeApp:connectedDebugAndroidTest
-```
+---
 
-### Code Coverage
-We use the standard JaCoCo or Kover setup for coverage reports.
-**Target**: 50%+ Coverage (Current: ~70%)
+## ✨ Fitur Utama
+- **Product Catalog**: Penjelajahan produk kecantikan dengan filter kategori yang responsif.
+- **Smart Search**: Pencarian produk real-time menggunakan teknik *debounce* untuk efisiensi.
+- **Shopping Bag**: Manajemen keranjang belanja yang intuitif sebelum melakukan checkout.
+- **AI Beauty Advisor**: Konsultasi kecantikan cerdas terintegrasi dengan **Gemini AI**.
+- **Offline-First**: Sinkronisasi data lokal menggunakan SQLDelight sehingga aplikasi tetap dapat diakses tanpa koneksi internet.
 
-## Test Results
-
-| Test Report | Test Report (Class) |
-| :---: | :---: |
-| <img width="1759" height="755" alt="Screenshot 2026-06-07 180358" src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" /> | <img width="1759" height="787" alt="Screenshot 2026-06-07 180410" src="https://github.com/user-attachments/assets/4e27ed30-3d5a-4e86-87b4-d8e727c7b784" /> |
-
-### Coverage Report
-```bash
-# Generate laporan coverage
-./gradlew koverHtmlReport
-
-# Hasil tersimpan di:
-# composeApp/build/reports/kover/html/index.html
-```
-
+---
 
 ## 🛠 Tech Stack
-- **UI**: Jetpack Compose / Compose Multiplatform
-- **DI**: Koin
-- **Local DB**: SQLDelight
-- **Network**: Ktor
+- **Multiplatform Framework**: Compose Multiplatform (Android & iOS)
+- **Dependency Injection**: Koin
+- **Local Database**: SQLDelight
+- **Networking**: Ktor Client
+- **Local Storage**: Jetpack DataStore
 - **Concurrency**: Kotlin Coroutines & Flow
-- **AI**: Google Gemini API
+- **AI Integration**: Google Gemini API
+
+---
+
+## 📐 Arsitektur
+Aplikasi ini menerapkan **Clean Architecture** dengan pola **MVVM (Model-View-ViewModel)**:
+
+- **Presentation Layer**: Mengelola UI dengan Compose dan UI State dengan ViewModels.
+- **Domain Layer**: Berisi Business Logic, Model Domain, dan Interface Repository (Pure Kotlin).
+- **Data Layer**: Implementasi Repository, integrasi SQLDelight (Lokal), dan Ktor (Remote).
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/informatika-itera/Proyek-Pengembangan-Aplikasi-Mobile.git
+   ```
+2. **Setup API Key**
+   - Buat file `local.properties` di root project.
+   - Tambahkan API Key Gemini Anda: `GEMINI_API_KEY=AIzaSy...`
+3. **Buka di Android Studio**
+   - Gunakan **Android Studio Ladybug (2024.2.1)** atau versi terbaru.
+   - Tunggu proses Gradle Sync selesai.
+4. **Jalankan di Device**
+   - Pilih modul `composeApp` dan jalankan di emulator atau perangkat fisik Android.
+
+---
+
+## 📥 Download
+Tautan untuk mengunduh versi terbaru aplikasi:
+- [**Download APK (Releases)**](https://github.com/informatika-itera/Proyek-Pengembangan-Aplikasi-Mobile/releases)
+
+---
+
+## 🖼 Screenshots
+| Home Screen | Product Detail | AI Advisor |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="200" /> | <img src="https://github.com/user-attachments/assets/4e27ed30-3d5a-4e86-87b4-d8e727c7b784" width="200" /> | <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="200" /> |
+
+---
+*Dokumen ini adalah bagian dari Proyek Pengembangan Aplikasi Mobile - ITERA.*
