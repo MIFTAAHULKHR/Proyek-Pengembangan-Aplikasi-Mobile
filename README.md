@@ -1,44 +1,65 @@
 # ROSÉA - Beauty E-Commerce App
 
-A modern beauty e-commerce application built with Compose Multiplatform.
+ROSÉA is a modern, elegant, and high-performance beauty e-commerce application built using **Compose Multiplatform**. It offers a seamless shopping experience with a "Soft Rose" aesthetic, integrated AI assistance, and offline-first capabilities.
 
-## 🚀 Features
-- **Product Catalog**: Reactive product listing with category filters.
-- **Smart Search**: Real-time product search with debounce.
-- **Shopping Bag**: Manage products before checkout.
-- **AI Beauty Advisor**: Integrated Gemini AI for beauty consultations.
-- **Offline-First**: Local storage using SQLDelight and DataStore.
+## ✨ Features
 
-## 🧪 Testing Instructions (Sprint 4)
+- **🌸 Elegant UI/UX**: Custom "Soft Rose" theme with support for **Dark Mode**.
+- **🛍️ Product Catalog**: Browse various beauty products with real-time category filtering.
+- **🔍 Smart Search**: Instant search results powered by reactive state management.
+- **🤖 AI Beauty Advisor**: Get personalized beauty tips using the integrated **Google Gemini AI**.
+- **🛒 Seamless Cart**: Manage your shopping bag easily before checkout.
+- **🌓 Dynamic Theme**: Toggle between Light and Dark mode via Settings.
+- **📦 Offline-First**: Reliable data access using **SQLDelight** and **DataStore** even without internet.
+- **✨ Animated Banner**: Engaging home banner with floating effects and shimmering gradients.
 
-### Unit Tests
-Total: 14 Tests (Repository & ViewModels)
-- **ProductRepositoryTest**: Verifies data fetching, searching, and filtering.
-- **HomeViewModelTest**: Verifies UI state transformations, search logic, and sorting.
-- **DetailViewModelTest**: Verifies product loading and "Add to Bag" functionality.
+## 🛠 Tech Stack
 
-**How to run:**
+- **UI Framework**: Compose Multiplatform (Android/iOS)
+- **Dependency Injection**: Koin
+- **Networking**: Ktor
+- **Database**: SQLDelight (Local persistence)
+- **Local Preferences**: DataStore
+- **Image Loading**: Coil 3
+- **AI Integration**: Google Gemini API
+- **Navigation**: Compose Navigation
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio Ladybug or newer.
+- JDK 17.
+- Gemini API Key (for AI features).
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/rosea.git
+   ```
+2. Open the project in Android Studio.
+3. Add your `GEMINI_API_KEY` in `local.properties`:
+   ```properties
+   GEMINI_API_KEY=your_key_here
+   ```
+4. Sync Gradle and run the `:composeApp` on an emulator or device.
+
+## 🧪 Testing
+
+### Running Unit Tests
 ```bash
 ./gradlew :composeApp:testDebugUnitTest
 ```
 
-### UI Tests
-- **HomeScreenTest**: Verifies product list visibility and search bar functionality.
-- **NavigationTest**: Verifies navigation from Home to Detail and Cart.
-
-**How to run:**
+### Running UI Tests
 ```bash
 ./gradlew :composeApp:connectedDebugAndroidTest
 ```
 
-### Code Coverage
-We use the standard JaCoCo or Kover setup for coverage reports.
-**Target**: 50%+ Coverage (Current: ~70%)
+## 📱 Screenshots
 
-## 🛠 Tech Stack
-- **UI**: Jetpack Compose / Compose Multiplatform
-- **DI**: Koin
-- **Local DB**: SQLDelight
-- **Network**: Ktor
-- **Concurrency**: Kotlin Coroutines & Flow
-- **AI**: Google Gemini API
+| Home (Light) | Home (Dark) | Settings | AI Advisor |
+|--------------|-------------|----------|------------|
+| ![Home](docs/screenshots/home_light.png) | ![Home Dark](docs/screenshots/home_dark.png) | ![Settings](docs/screenshots/settings.png) | ![AI](docs/screenshots/ai_advisor.png) |
+
+---
+*Developed for Proyek Pengembangan Aplikasi Mobile - Sprint 5*
