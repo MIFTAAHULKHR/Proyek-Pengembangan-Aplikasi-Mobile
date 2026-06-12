@@ -5,7 +5,7 @@ Proyek ini dikembangkan oleh:
 
 | Nama | NIM | Peran | GitHub |
 | :--- | :--- | :--- | :--- |
-| **Andini Rahma Kemala** | 123140067 | Presentation Layer, UI/UX, Testing | [@Andinn](https://github.com/Andinn) |
+| **Andini Rahma Kemala** | 123140067 | Presentation Layer, UI/UX, Testing | [@04-123140067-AndiniRahmaKemala](https://github.com/04-123140067-AndiniRahmaKemala) |
 | **Miftahul Khair** | 123140064 | Domain & Data Layer, Database, API | [@MIFTAAHULKHR](https://github.com/MIFTAAHULKHR) |
 
 ---
@@ -68,16 +68,18 @@ Tautan untuk mengunduh versi terbaru aplikasi:
 ---
 
 ## Video Presentasi ROSÉA 123140064-123140067
-▶️ [Presentasi Akhir ROSÉA](https://www.youtube.com/watch?v=TB6eA-g8A2g)
+▶️ [Presentasi Akhir ROSÉA](https://youtu.be/vTU-n-fGePc)
 
 ---
 
 ## 🖼 Screenshots
-| Home Screen | Product Detail | AI Advisor | Shopping Bag | Profile |
-| :---: | :---: | :---: | :---: | :---: |
-| <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 46" src="https://github.com/user-attachments/assets/d4898fc6-56d3-4f17-9070-4e27769ce113" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48" src="https://github.com/user-attachments/assets/ea147850-b505-4f42-8e78-b2349ea8c846" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 47 (1)" src="https://github.com/user-attachments/assets/f764e89f-f046-450e-aa1d-68df12445f33" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48 (1)" src="https://github.com/user-attachments/assets/d3ad2a38-3ac4-4b27-8d05-57a214893f62" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48 (2)" src="https://github.com/user-attachments/assets/bc18540e-46fb-46de-9884-99ffd4959032" /> |  
+| Home Screen | Product Detail | AI Advisor | Shopping Bag | Profile | Dark Mode |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 46" src="https://github.com/user-attachments/assets/d4898fc6-56d3-4f17-9070-4e27769ce113" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48" src="https://github.com/user-attachments/assets/ea147850-b505-4f42-8e78-b2349ea8c846" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 47 (1)" src="https://github.com/user-attachments/assets/f764e89f-f046-450e-aa1d-68df12445f33" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48 (1)" src="https://github.com/user-attachments/assets/d3ad2a38-3ac4-4b27-8d05-57a214893f62" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48 (2)" src="https://github.com/user-attachments/assets/bc18540e-46fb-46de-9884-99ffd4959032" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 23 17 10" src="https://github.com/user-attachments/assets/e0ed5417-fb39-46be-a9e7-713405960338" /> |  
 
 ---
+
+## Test Results
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="100%" alt="ROSÉA Header" />
