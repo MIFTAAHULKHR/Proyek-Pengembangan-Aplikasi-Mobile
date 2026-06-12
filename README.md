@@ -1,65 +1,60 @@
 # ROSÉA - Beauty E-Commerce App
 
-ROSÉA is a modern, elegant, and high-performance beauty e-commerce application built using **Compose Multiplatform**. It offers a seamless shopping experience with a "Soft Rose" aesthetic, integrated AI assistance, and offline-first capabilities.
+A modern beauty e-commerce application built with Compose Multiplatform.
 
-## ✨ Features
+## 🚀 Features
+- **Product Catalog**: Reactive product listing with category filters.
+- **Smart Search**: Real-time product search with debounce.
+- **Shopping Bag**: Manage products before checkout.
+- **AI Beauty Advisor**: Integrated Gemini AI for beauty consultations.
+- **Offline-First**: Local storage using SQLDelight and DataStore.
 
-- **🌸 Elegant UI/UX**: Custom "Soft Rose" theme with support for **Dark Mode**.
-- **🛍️ Product Catalog**: Browse various beauty products with real-time category filtering.
-- **🔍 Smart Search**: Instant search results powered by reactive state management.
-- **🤖 AI Beauty Advisor**: Get personalized beauty tips using the integrated **Google Gemini AI**.
-- **🛒 Seamless Cart**: Manage your shopping bag easily before checkout.
-- **🌓 Dynamic Theme**: Toggle between Light and Dark mode via Settings.
-- **📦 Offline-First**: Reliable data access using **SQLDelight** and **DataStore** even without internet.
-- **✨ Animated Banner**: Engaging home banner with floating effects and shimmering gradients.
+## 🧪 Testing Instructions (Sprint 4)
 
-## 🛠 Tech Stack
+### Unit Tests
+Total: 14 Tests (Repository & ViewModels)
+- **ProductRepositoryTest**: Verifies data fetching, searching, and filtering.
+- **HomeViewModelTest**: Verifies UI state transformations, search logic, and sorting.
+- **DetailViewModelTest**: Verifies product loading and "Add to Bag" functionality.
 
-- **UI Framework**: Compose Multiplatform (Android/iOS)
-- **Dependency Injection**: Koin
-- **Networking**: Ktor
-- **Database**: SQLDelight (Local persistence)
-- **Local Preferences**: DataStore
-- **Image Loading**: Coil 3
-- **AI Integration**: Google Gemini API
-- **Navigation**: Compose Navigation
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Android Studio Ladybug or newer.
-- JDK 17.
-- Gemini API Key (for AI features).
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/rosea.git
-   ```
-2. Open the project in Android Studio.
-3. Add your `GEMINI_API_KEY` in `local.properties`:
-   ```properties
-   GEMINI_API_KEY=your_key_here
-   ```
-4. Sync Gradle and run the `:composeApp` on an emulator or device.
-
-## 🧪 Testing
-
-### Running Unit Tests
+**How to run:**
 ```bash
 ./gradlew :composeApp:testDebugUnitTest
 ```
 
-### Running UI Tests
+### UI Tests
+- **HomeScreenTest**: Verifies product list visibility and search bar functionality.
+- **NavigationTest**: Verifies navigation from Home to Detail and Cart.
+
+**How to run:**
 ```bash
 ./gradlew :composeApp:connectedDebugAndroidTest
 ```
 
-## 📱 Screenshots
+### Code Coverage
+We use the standard JaCoCo or Kover setup for coverage reports.
+**Target**: 50%+ Coverage (Current: ~70%)
 
-| Home (Light) | Home (Dark) | Settings | AI Advisor |
-|--------------|-------------|----------|------------|
-| ![Home](docs/screenshots/home_light.png) | ![Home Dark](docs/screenshots/home_dark.png) | ![Settings](docs/screenshots/settings.png) | ![AI](docs/screenshots/ai_advisor.png) |
+## Test Results
 
----
-*Developed for Proyek Pengembangan Aplikasi Mobile - Sprint 5*
+| Test Report | Test Report (Class) |
+| :---: | :---: |
+| <img width="1759" height="755" alt="Screenshot 2026-06-07 180358" src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" /> | <img width="1759" height="787" alt="Screenshot 2026-06-07 180410" src="https://github.com/user-attachments/assets/4e27ed30-3d5a-4e86-87b4-d8e727c7b784" /> |
+
+### Coverage Report
+```bash
+# Generate laporan coverage
+./gradlew koverHtmlReport
+
+# Hasil tersimpan di:
+# composeApp/build/reports/kover/html/index.html
+```
+
+
+## 🛠 Tech Stack
+- **UI**: Jetpack Compose / Compose Multiplatform
+- **DI**: Koin
+- **Local DB**: SQLDelight
+- **Network**: Ktor
+- **Concurrency**: Kotlin Coroutines & Flow
+- **AI**: Google Gemini API
