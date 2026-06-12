@@ -67,15 +67,15 @@ Tautan untuk mengunduh versi terbaru aplikasi:
 
 ---
 
-## Video Presentasi My Wallet 123140082-123140069
-▶️ [Presentasi Akhir My-Wallet](https://www.youtube.com/watch?v=TB6eA-g8A2g)
+## Video Presentasi ROSÉA 123140064-123140067
+▶️ [Presentasi Akhir ROSÉA](https://www.youtube.com/watch?v=TB6eA-g8A2g)
 
 ---
 
 ## 🖼 Screenshots
-| Home Screen | Product Detail | AI Advisor |
+| Home Screen | Product Detail | AI Advisor | Shopping Bag | Profile |
 | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="200" /> | <img src="https://github.com/user-attachments/assets/4e27ed30-3d5a-4e86-87b4-d8e727c7b784" width="200" /> | <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="200" /> |
+| <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 46" src="https://github.com/user-attachments/assets/d4898fc6-56d3-4f17-9070-4e27769ce113" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48" src="https://github.com/user-attachments/assets/ea147850-b505-4f42-8e78-b2349ea8c846" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 47 (1)" src="https://github.com/user-attachments/assets/f764e89f-f046-450e-aa1d-68df12445f33" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48 (1)" src="https://github.com/user-attachments/assets/d3ad2a38-3ac4-4b27-8d05-57a214893f62" /> | <img width="720" height="1600" alt="WhatsApp Image 2026-06-12 at 21 37 48 (2)" src="https://github.com/user-attachments/assets/bc18540e-46fb-46de-9884-99ffd4959032" /> |  
 
 ---
 
