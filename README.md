@@ -1,12 +1,5 @@
 # 🌹 ROSÉA - Beauty E-Commerce App
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="100%" alt="ROSÉA Header" />
-  <p><i>A modern beauty e-commerce application built with Compose Multiplatform.</i></p>
-</div>
-
----
-
 ## 👥 Informasi Tim
 Proyek ini dikembangkan oleh:
 
@@ -74,10 +67,22 @@ Tautan untuk mengunduh versi terbaru aplikasi:
 
 ---
 
+## Video Presentasi My Wallet 123140082-123140069
+▶️ [Presentasi Akhir My-Wallet](https://www.youtube.com/watch?v=TB6eA-g8A2g)
+
+---
+
 ## 🖼 Screenshots
 | Home Screen | Product Detail | AI Advisor |
 | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="200" /> | <img src="https://github.com/user-attachments/assets/4e27ed30-3d5a-4e86-87b4-d8e727c7b784" width="200" /> | <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="200" /> |
+
+---
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e913af67-8783-4a4a-893e-d349e9d9b4a0" width="100%" alt="ROSÉA Header" />
+  <p><i>A modern beauty e-commerce application built with Compose Multiplatform.</i></p>
+</div>
 
 ---
 *Dokumen ini adalah bagian dari Proyek Pengembangan Aplikasi Mobile - ITERA.*
